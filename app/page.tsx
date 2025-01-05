@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>Hello, Next.js!</h1>
+        <h1>Hello, Next.js! { new Date().toUTCString() }</h1>
+        <br /> <br />
         <Image
           className={styles.logo}
           src="/next.svg"
